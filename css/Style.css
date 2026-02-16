@@ -1,0 +1,41 @@
+/* barra de */
+body {background-color: rgb(1, 97, 87)}
+header{background-color: gray;}
+main {background-color: rgb(193, 228, 228);}
+
+h1 {color: aliceblue;
+text-align: start;
+}
+.subtitulo{
+    color: aliceblue;
+    font-style: italic;
+}
+.section11 {
+    color: rgb(2, 35, 2);
+    background-color: rgb(193, 228, 228);
+}
+.section1{
+    background-color: rgb(150, 174, 174);
+    text-align: center;
+}
+.section2 {
+background-color: rgb(193, 228, 228);
+text-align: center;
+}
+
+.article1 {
+background-color: blanchedalmond;
+
+}
+.subrayadoamarillo {background-color: yellow;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;
+    background-repeat: inherit;
+}
+
+footer { 
+    color: whitesmoke;
+}
