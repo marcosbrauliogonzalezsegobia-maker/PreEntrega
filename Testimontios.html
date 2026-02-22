@@ -4,58 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <title>Marcos Autopartes</title>
 </head>
 <body>
-    <header>
-     <!-- etiqueta banner principal-->
-        <img src="Imagenes/LOGO.png"alt="tittle"  width="1500" height="600"  >
-        <h1> Marcos Autopartes</style>
+      <!-- etiqueta banner principal-->
+       <header>
+        <img class="Imagentitulo" src="Imagenes/logo (2).png"alt="tittle"  width="1500" height="600"      >
+        <nav>
+        <h1 class="titulo4"> Marcos Autopartes</style>
         </h1>
         <h2 class="subtitulo">El mejor lugar para tu coche
             
         </h2>
+      
 
     <!-- etiqueta menu de navegacion -->
         <ul>
-            <li><a href="../PreEntrega-1- Gonzalez/index.html">¿Quienes somos?</a></li>
+            <li><a href="index.html">¿Quienes somos?</a></li>
             <li>
                 <a href="Productos.html">Productos</a>
             </li>
-            <li><a href="/PreEntrega-1- Gonzalez/Testimontios.html">Testimonios</a></li>
+            <li><a href="Testimontios.html">Testimonios</a></li>
         </ul>
-    </header>
+        </header>
+        </nav>
 
     <!-- etiqueta para el contenido principal -->
     
-    <article class="section11">
-    <h2>Lo que dicen nuestros clientes</h2>
-        <h3>🗣️ Carlos M. – Cliente particular</h3>
-        <span>★★★★★</span>
-            <p>“Desde la primera visita recibí una excelente atención. Me ayudaron a identificar la refacción correcta para mi vehículo y me explicaron claramente las opciones disponibles. La calidad del producto fue muy buena y el precio justo. Se nota el compromiso y el conocimiento técnico del personal. Sin duda, Marcos Autopartes será mi primera opción en futuras compras.”</p>
-            <img src="Imagenes/good experience 1.webp" alt="" width="300" height="150">
-            <img src="Imagenes/good experince.jpg" alt="" width="300" height="150">
-        
-        <H3>🗣️ Taller Automotriz Hernández – Cliente comercial </H3>
-     <i>★★★★★</i>
-            <P>“Hemos trabajado con Marcos Autopartes de forma constante y siempre hemos recibido un servicio profesional y confiable. Las refacciones cumplen con las especificaciones necesarias y los tiempos de entrega son puntuales. La asesoría técnica que brindan nos permite ofrecer un mejor servicio a nuestros propios clientes. Totalmente recomendados.”</P>
-            <img src="Imagenes/good experience 2.webp" alt="" width="300" height="150">
+    <h1 class="titulo3">¿Que dicen nuestros clientes de nosotros?</h1>
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Imagenes/good experience 1.webp" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>🗣️ Carlos M. – Cliente particular <span>★★★★★</span> </h5>
+        <p>“Desde la primera visita recibí una excelente atención. Me ayudaron a identificar la refacción correcta para mi vehículo y me explicaron claramente las opciones disponibles. La calidad del producto fue muy buena y el precio justo. Se nota el compromiso y el conocimiento técnico del personal. Sin duda, Marcos Autopartes será mi primera opción en futuras compras.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Imagenes/good experience 2.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>🗣️ Taller Automotriz Hernández – Cliente comercial <i>★★★★★</i> </h5>
+        <p>“Hemos trabajado con Marcos Autopartes de forma constante y siempre hemos recibido un servicio profesional y confiable. Las refacciones cumplen con las especificaciones necesarias y los tiempos de entrega son puntuales. La asesoría técnica que brindan nos permite ofrecer un mejor servicio a nuestros propios clientes. Totalmente recomendados.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Imagenes/good experience.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>🗣️ José R. – Mecánico independiente  <i>★★★★★</i></h5>
+        <p>“Como mecánico, valoro mucho encontrar un proveedor confiable. En Marcos Autopartes siempre encuentro refacciones de buena calidad y apoyo técnico cuando tengo alguna duda. Su conocimiento y atención hacen la diferencia. Es un respaldo importante para mi trabajo diario.”</p>
+      </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-        <H3>🗣️ Laura G. – Cliente frecuente </H3>
-        <i>★★★★★</i>
-            <P>“Me gustó mucho la atención personalizada y la honestidad con la que trabajan. Me orientaron para elegir la mejor opción según las necesidades de mi auto, sin venderme algo innecesario. La calidad de las refacciones y el trato recibido me generan mucha confianza. Es un negocio serio y responsable.”</P>
-            <img src="Imagenes/good experience 3.jpg" alt="" width="300" height="150">
-
-        <H3>🗣️ José R. – Mecánico independiente</H3>
-        <i>★★★★★</i>
-            <P>“Como mecánico, valoro mucho encontrar un proveedor confiable. En Marcos Autopartes siempre encuentro refacciones de buena calidad y apoyo técnico cuando tengo alguna duda. Su conocimiento y atención hacen la diferencia. Es un respaldo importante para mi trabajo diario.”</P>
-            <img src="Imagenes/good experience.webp" alt="" width="300" height="150">
-    </article>
-       
+           
     <article class="section11">
             <H2 >¿Por qué elegir Marcos Autopartes?</H2>
 
-    <video src="https://youtu.be/ANG4aNK4n8Q?si=S0Te_OJbpCOwkTE3&t=3" controls width="550" height="360" class="video"></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ANG4aNK4n8Q?si=eVEv3zJfUrpAt3yq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
         <p>En Marcos Autopartes nos especializamos en ofrecer refacciones automotrices de alta calidad, atención profesional y asesoría técnica especializada para clientes particulares, talleres y mecánicos independientes.
@@ -80,6 +103,8 @@
             <p>Calidad, confianza y las mejores refacciones para tu vehículo.</p>
             <h6>© 2026 Marcos Autopartes. Todos los derechos reservados.
             Diseñado para brindar soluciones confiables al sector automotriz.</h6>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </footer>
 

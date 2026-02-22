@@ -1,7 +1,19 @@
 /* barra de */
-body {background-color: rgb(1, 97, 87)}
-header{background-color: gray;}
-main {background-color: rgb(193, 228, 228);}
+body {
+    margin: 1%;
+    padding: 1%;
+    
+    background-color: rgb(1, 97, 87)
+}
+header{
+    align-items: center;
+background: black
+
+} 
+
+main {background-color: black;
+color: white;
+}
 
 h1 {color: aliceblue;
 text-align: start;
@@ -11,8 +23,13 @@ text-align: start;
     font-style: italic;
 }
 .section11 {
-    color: rgb(2, 35, 2);
-    background-color: rgb(193, 228, 228);
+    margin-top: 1%;
+    text-align: center;
+    justify-content: stretch;
+    color: white;
+    background-color: black
+    
+    
 }
 .section1{
     background-color: rgb(150, 174, 174);
@@ -27,9 +44,13 @@ text-align: center;
 background-color: blanchedalmond;
 
 }
-.subrayadoamarillo {background-color: yellow;
+.subrayadoamarillo {
+    margin-top: 1%;
+    color: white;
+    background-color: #2b364e;
     text-align: center;
-    text-decoration-color: blueviolet;
+    font-size: 2rem;
+    font-style: monospace;
 }
 body {
     background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;
@@ -38,4 +59,114 @@ body {
 
 footer { 
     color: whitesmoke;
+
+}
+nav {
+display: flex;
+gap: 1.9rem;
+text-align: center;
+justify-content: center;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.7rem;
+    justify-content: flex-end
+    
+}
+    
+.carouselExampleDark {
+    color: white;
+}
+.titulo3{
+color: white;
+margin-top: 1%;
+text-align: center;
+background-color: black;
+font: 200;
+border: 1%;
+display: 1;
+
+}
+.titulo4{
+color: white;
+}
+.contenido1 {
+    margin-top: 1%;
+
+}
+h3{
+    background-color: #305ad6;
+    text-align: center;
+}
+textarea {
+    padding: 20px 700px;
+    align-items: center;
+    background-color: #f0f2f5;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.card1{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.card2{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card3{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card4{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card5{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card6{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card7{
+    color: white;
+    background-color: black;
+    margin: 1%;
+    padding: 1%;
+}
+.card-title{
+    color: red;
+}
+
+div {
+    display: grid;
+    grid-column: 3 (repeat, 300);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.cardsproductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
