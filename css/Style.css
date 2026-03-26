@@ -1,15 +1,20 @@
-/* barra de */
-body {
+* barra de */
+body{
     margin: 1%;
     padding: 1%;
-    
     background-color: rgb(1, 97, 87)
 }
 header{
-    align-items: center;
+    font-size: 1.5rem;
+align-items: center;
 background: black
 
 } 
+header img {
+    width: 100%;
+    height: 30rem;
+    
+}
 
 main {background-color: black;
 color: white;
@@ -24,11 +29,11 @@ text-align: start;
 }
 .section11 {
     margin-top: 1%;
-    text-align: center;
-    justify-content: stretch;
+    padding: 1%;
+    text-align: justify;
+    list-style-position: inside;
     color: white;
     background-color: black
-    
     
 }
 .section1{
@@ -94,18 +99,24 @@ color: white;
 }
 .contenido1 {
     margin-top: 1%;
-
+    padding: .5rem;
+    text-align: justify;
+    list-style-position: inside;
+}
+.CONTENIDO1 P{
+    margin: auto
 }
 h3{
+    margin: 1rem;
     background-color: #305ad6;
     text-align: center;
 }
 textarea {
-    padding: 20px 700px;
+    padding: 1rem 4rem;
     align-items: center;
     background-color: #f0f2f5;
     border: 2px solid transparent;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 .card1{
@@ -113,9 +124,9 @@ textarea {
     background-color: black;
     margin: 1%;
     padding: 1%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    
 }
+
 .card2{
     color: white;
     background-color: black;
@@ -170,3 +181,82 @@ div {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.contacto{
+    margin-bottom: .;
+    display: flex;
+    flex-direction: unset;
+    gap: 1.8rem;
+    position: relative;
+    justify-content: flex-end
+}
+
+@media (max-width: 600px) {
+header{
+    margin-top: 0%;
+    font-size:x-small ;
+}
+header img{
+    height: 15rem;
+}
+.subtitulo{
+visibility: hidden;
+}
+header ul{
+    align-items: center;
+    font-weight: 600;
+    font-size: .8rem;
+    gap: .4rem;
+}
+.cardsproductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: small;
+}
+.cardsproductos img{
+    width: 100%;
+    height: 20rem;
+
+}
+.textarea{
+    padding: 10px 20px;
+}
+*{
+    margin: .1%;
+    border: .1%;
+}
+.testimonios{
+    font-size: small;
+}
+.testimonios2{
+    position: relative;
+    place-items: center;
+}
+iframe{
+    width: 100%;
+}
+
+.tittle3{
+    margin-left: 0%;
+align-items: center
+
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    
+    .cardsproductos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        font-size: small;
+        margin: .5%;
+        padding: .5%;
+    }
+    .cardsproductos img{
+    width: 100%;
+    height: 20rem;
+
+
+}
+}
+
